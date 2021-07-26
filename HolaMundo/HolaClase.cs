@@ -24,7 +24,7 @@ namespace HolaMundo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LblMensaje.Text = "Hola gente de la materia - " + TxtMateria.Text;
+            LblMensaje.Text = "Hola alumnos de la materia - " + TxtMateria.Text;
         }
     }
 }
