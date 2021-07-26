@@ -34,6 +34,10 @@ namespace HolaMundo
             this.LblEtiqueta = new System.Windows.Forms.Label();
             this.LblMensaje = new System.Windows.Forms.Label();
             this.TxtMateria = new System.Windows.Forms.TextBox();
+            this.lbletiqueta2 = new System.Windows.Forms.Label();
+            this.TxtSalida2 = new System.Windows.Forms.TextBox();
+            this.btnaceptar2 = new System.Windows.Forms.Button();
+            this.lblmensaje2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnAceptar
@@ -42,7 +46,7 @@ namespace HolaMundo
             this.BtnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAceptar.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAceptar.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.BtnAceptar.Location = new System.Drawing.Point(197, 122);
+            this.BtnAceptar.Location = new System.Drawing.Point(80, 123);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(105, 45);
             this.BtnAceptar.TabIndex = 0;
@@ -55,11 +59,11 @@ namespace HolaMundo
             this.LblEtiqueta.AutoSize = true;
             this.LblEtiqueta.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.LblEtiqueta.Cursor = System.Windows.Forms.Cursors.Default;
-            this.LblEtiqueta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEtiqueta.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblEtiqueta.ForeColor = System.Drawing.Color.White;
-            this.LblEtiqueta.Location = new System.Drawing.Point(193, 37);
+            this.LblEtiqueta.Location = new System.Drawing.Point(76, 9);
             this.LblEtiqueta.Name = "LblEtiqueta";
-            this.LblEtiqueta.Size = new System.Drawing.Size(140, 20);
+            this.LblEtiqueta.Size = new System.Drawing.Size(151, 23);
             this.LblEtiqueta.TabIndex = 1;
             this.LblEtiqueta.Text = "Ingrese materia:";
             // 
@@ -69,7 +73,7 @@ namespace HolaMundo
             this.LblMensaje.BackColor = System.Drawing.Color.White;
             this.LblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMensaje.ForeColor = System.Drawing.Color.Red;
-            this.LblMensaje.Location = new System.Drawing.Point(194, 200);
+            this.LblMensaje.Location = new System.Drawing.Point(30, 218);
             this.LblMensaje.Name = "LblMensaje";
             this.LblMensaje.Size = new System.Drawing.Size(46, 20);
             this.LblMensaje.TabIndex = 2;
@@ -79,17 +83,66 @@ namespace HolaMundo
             // 
             this.TxtMateria.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtMateria.ForeColor = System.Drawing.Color.Red;
-            this.TxtMateria.Location = new System.Drawing.Point(197, 79);
+            this.TxtMateria.Location = new System.Drawing.Point(45, 57);
             this.TxtMateria.Name = "TxtMateria";
             this.TxtMateria.Size = new System.Drawing.Size(219, 29);
             this.TxtMateria.TabIndex = 3;
+            // 
+            // lbletiqueta2
+            // 
+            this.lbletiqueta2.AutoSize = true;
+            this.lbletiqueta2.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbletiqueta2.Location = new System.Drawing.Point(488, 9);
+            this.lbletiqueta2.Name = "lbletiqueta2";
+            this.lbletiqueta2.Size = new System.Drawing.Size(309, 23);
+            this.lbletiqueta2.TabIndex = 4;
+            this.lbletiqueta2.Text = "¿SALIMOS EL FIN DE SEMANA?";
+            // 
+            // TxtSalida2
+            // 
+            this.TxtSalida2.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtSalida2.ForeColor = System.Drawing.Color.Red;
+            this.TxtSalida2.Location = new System.Drawing.Point(528, 57);
+            this.TxtSalida2.Name = "TxtSalida2";
+            this.TxtSalida2.Size = new System.Drawing.Size(219, 29);
+            this.TxtSalida2.TabIndex = 5;
+            // 
+            // btnaceptar2
+            // 
+            this.btnaceptar2.BackColor = System.Drawing.Color.Black;
+            this.btnaceptar2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnaceptar2.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaceptar2.ForeColor = System.Drawing.Color.Red;
+            this.btnaceptar2.Location = new System.Drawing.Point(606, 123);
+            this.btnaceptar2.Name = "btnaceptar2";
+            this.btnaceptar2.Size = new System.Drawing.Size(105, 45);
+            this.btnaceptar2.TabIndex = 6;
+            this.btnaceptar2.Text = "Aceptar";
+            this.btnaceptar2.UseVisualStyleBackColor = false;
+            this.btnaceptar2.Click += new System.EventHandler(this.btnaceptar2_Click);
+            // 
+            // lblmensaje2
+            // 
+            this.lblmensaje2.AutoSize = true;
+            this.lblmensaje2.BackColor = System.Drawing.Color.White;
+            this.lblmensaje2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmensaje2.ForeColor = System.Drawing.Color.Red;
+            this.lblmensaje2.Location = new System.Drawing.Point(502, 218);
+            this.lblmensaje2.Name = "lblmensaje2";
+            this.lblmensaje2.Size = new System.Drawing.Size(336, 20);
+            this.lblmensaje2.TabIndex = 7;
+            this.lblmensaje2.Text = "Haciendo click, sabra si debe salir o no...";
             // 
             // HolaClase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chartreuse;
-            this.ClientSize = new System.Drawing.Size(596, 261);
+            this.ClientSize = new System.Drawing.Size(913, 331);
+            this.Controls.Add(this.lblmensaje2);
+            this.Controls.Add(this.btnaceptar2);
+            this.Controls.Add(this.TxtSalida2);
+            this.Controls.Add(this.lbletiqueta2);
             this.Controls.Add(this.TxtMateria);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.LblEtiqueta);
@@ -109,6 +162,10 @@ namespace HolaMundo
         private System.Windows.Forms.Label LblEtiqueta;
         private System.Windows.Forms.Label LblMensaje;
         private System.Windows.Forms.TextBox TxtMateria;
+        private System.Windows.Forms.Label lbletiqueta2;
+        private System.Windows.Forms.TextBox TxtSalida2;
+        private System.Windows.Forms.Button btnaceptar2;
+        private System.Windows.Forms.Label lblmensaje2;
     }
 }
 

@@ -26,5 +26,10 @@ namespace HolaMundo
         {
             LblMensaje.Text = "Hola alumnos de la materia - " + TxtMateria.Text;
         }
+
+        private void btnaceptar2_Click(object sender, EventArgs e)
+        {
+            lblmensaje2.Text = "seguro que saldremos hoy !! " + TxtSalida2.Text;
+        }
     }
 }
