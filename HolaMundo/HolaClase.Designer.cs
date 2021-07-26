@@ -57,25 +57,25 @@ namespace HolaMundo
             // LblEtiqueta
             // 
             this.LblEtiqueta.AutoSize = true;
-            this.LblEtiqueta.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.LblEtiqueta.BackColor = System.Drawing.Color.White;
             this.LblEtiqueta.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblEtiqueta.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEtiqueta.ForeColor = System.Drawing.Color.White;
+            this.LblEtiqueta.ForeColor = System.Drawing.Color.Red;
             this.LblEtiqueta.Location = new System.Drawing.Point(12, 9);
             this.LblEtiqueta.Name = "LblEtiqueta";
-            this.LblEtiqueta.Size = new System.Drawing.Size(151, 23);
+            this.LblEtiqueta.Size = new System.Drawing.Size(270, 23);
             this.LblEtiqueta.TabIndex = 1;
-            this.LblEtiqueta.Text = "Ingrese materia:";
+            this.LblEtiqueta.Text = "Ingrese nombre de la materia:";
             // 
             // LblMensaje
             // 
             this.LblMensaje.AutoSize = true;
             this.LblMensaje.BackColor = System.Drawing.Color.White;
-            this.LblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensaje.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMensaje.ForeColor = System.Drawing.Color.Red;
             this.LblMensaje.Location = new System.Drawing.Point(12, 179);
             this.LblMensaje.Name = "LblMensaje";
-            this.LblMensaje.Size = new System.Drawing.Size(46, 20);
+            this.LblMensaje.Size = new System.Drawing.Size(51, 23);
             this.LblMensaje.TabIndex = 2;
             this.LblMensaje.Text = "Hola";
             // 
@@ -113,7 +113,7 @@ namespace HolaMundo
             this.btnaceptar2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnaceptar2.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaceptar2.ForeColor = System.Drawing.Color.Red;
-            this.btnaceptar2.Location = new System.Drawing.Point(16, 279);
+            this.btnaceptar2.Location = new System.Drawing.Point(12, 291);
             this.btnaceptar2.Name = "btnaceptar2";
             this.btnaceptar2.Size = new System.Drawing.Size(105, 45);
             this.btnaceptar2.TabIndex = 6;
