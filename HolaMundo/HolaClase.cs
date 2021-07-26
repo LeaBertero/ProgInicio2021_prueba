@@ -29,6 +29,7 @@ namespace HolaMundo
 
         private void btnaceptar2_Click(object sender, EventArgs e)
         {
+
             lblmensaje2.Text = "FELICITACIONES !! ";
         }
     }

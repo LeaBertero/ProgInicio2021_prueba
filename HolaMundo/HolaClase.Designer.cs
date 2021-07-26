@@ -148,6 +148,7 @@ namespace HolaMundo
             this.Controls.Add(this.BtnAceptar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HolaClase";
+            this.Opacity = 0.8D;
             this.Text = "Hola Mundo - Primer Programa";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
