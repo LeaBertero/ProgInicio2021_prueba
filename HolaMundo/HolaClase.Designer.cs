@@ -29,30 +29,33 @@ namespace HolaMundo
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnAceptar = new System.Windows.Forms.Button();
             this.LblEtiqueta = new System.Windows.Forms.Label();
             this.LblMensaje = new System.Windows.Forms.Label();
             this.TxtMateria = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnAceptar
             // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(87, 121);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnAceptar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BtnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAceptar.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAceptar.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.BtnAceptar.Location = new System.Drawing.Point(87, 121);
+            this.BtnAceptar.Name = "BtnAceptar";
+            this.BtnAceptar.Size = new System.Drawing.Size(105, 45);
+            this.BtnAceptar.TabIndex = 0;
+            this.BtnAceptar.Text = "Aceptar";
+            this.BtnAceptar.UseVisualStyleBackColor = false;
+            this.BtnAceptar.Click += new System.EventHandler(this.button1_Click);
             // 
             // LblEtiqueta
             // 
             this.LblEtiqueta.AutoSize = true;
+            this.LblEtiqueta.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.LblEtiqueta.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblEtiqueta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEtiqueta.ForeColor = System.Drawing.Color.White;
             this.LblEtiqueta.Location = new System.Drawing.Point(83, 36);
             this.LblEtiqueta.Name = "LblEtiqueta";
             this.LblEtiqueta.Size = new System.Drawing.Size(140, 20);
@@ -62,7 +65,9 @@ namespace HolaMundo
             // LblMensaje
             // 
             this.LblMensaje.AutoSize = true;
+            this.LblMensaje.BackColor = System.Drawing.Color.White;
             this.LblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensaje.ForeColor = System.Drawing.Color.Red;
             this.LblMensaje.Location = new System.Drawing.Point(84, 199);
             this.LblMensaje.Name = "LblMensaje";
             this.LblMensaje.Size = new System.Drawing.Size(46, 20);
@@ -75,19 +80,19 @@ namespace HolaMundo
             this.TxtMateria.ForeColor = System.Drawing.Color.Red;
             this.TxtMateria.Location = new System.Drawing.Point(87, 78);
             this.TxtMateria.Name = "TxtMateria";
-            this.TxtMateria.Size = new System.Drawing.Size(163, 29);
+            this.TxtMateria.Size = new System.Drawing.Size(219, 29);
             this.TxtMateria.TabIndex = 3;
             // 
             // HolaClase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LawnGreen;
+            this.BackColor = System.Drawing.Color.Chartreuse;
             this.ClientSize = new System.Drawing.Size(441, 275);
             this.Controls.Add(this.TxtMateria);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.LblEtiqueta);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnAceptar);
             this.Name = "HolaClase";
             this.Text = "Hola Mundo - Primer Programa";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -98,7 +103,7 @@ namespace HolaMundo
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnAceptar;
         private System.Windows.Forms.Label LblEtiqueta;
         private System.Windows.Forms.Label LblMensaje;
         private System.Windows.Forms.TextBox TxtMateria;
