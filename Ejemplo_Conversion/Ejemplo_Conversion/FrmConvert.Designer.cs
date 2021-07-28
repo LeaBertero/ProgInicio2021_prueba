@@ -29,10 +29,10 @@ namespace Ejemplo_Conversion
         /// </summary>
         private void InitializeComponent()
         {
-            this.sumador2 = new System.Windows.Forms.TextBox();
-            this.Sumador1 = new System.Windows.Forms.TextBox();
+            this.TxtSum2 = new System.Windows.Forms.TextBox();
+            this.TxtSum1 = new System.Windows.Forms.TextBox();
             this.BtnRes = new System.Windows.Forms.Button();
-            this.LblSumador = new System.Windows.Forms.Label();
+            this.Label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,19 +40,25 @@ namespace Ejemplo_Conversion
             this.LblRes = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // sumador2
+            // TxtSum2
             // 
-            this.sumador2.Location = new System.Drawing.Point(324, 92);
-            this.sumador2.Name = "sumador2";
-            this.sumador2.Size = new System.Drawing.Size(100, 20);
-            this.sumador2.TabIndex = 0;
+            this.TxtSum2.BackColor = System.Drawing.Color.Black;
+            this.TxtSum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtSum2.ForeColor = System.Drawing.Color.Red;
+            this.TxtSum2.Location = new System.Drawing.Point(324, 92);
+            this.TxtSum2.Name = "TxtSum2";
+            this.TxtSum2.Size = new System.Drawing.Size(100, 26);
+            this.TxtSum2.TabIndex = 0;
             // 
-            // Sumador1
+            // TxtSum1
             // 
-            this.Sumador1.Location = new System.Drawing.Point(87, 92);
-            this.Sumador1.Name = "Sumador1";
-            this.Sumador1.Size = new System.Drawing.Size(100, 20);
-            this.Sumador1.TabIndex = 1;
+            this.TxtSum1.BackColor = System.Drawing.Color.Black;
+            this.TxtSum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtSum1.ForeColor = System.Drawing.Color.Red;
+            this.TxtSum1.Location = new System.Drawing.Point(87, 92);
+            this.TxtSum1.Name = "TxtSum1";
+            this.TxtSum1.Size = new System.Drawing.Size(100, 26);
+            this.TxtSum1.TabIndex = 1;
             // 
             // BtnRes
             // 
@@ -66,16 +72,17 @@ namespace Ejemplo_Conversion
             this.BtnRes.TabIndex = 2;
             this.BtnRes.Text = "=";
             this.BtnRes.UseVisualStyleBackColor = false;
+            this.BtnRes.Click += new System.EventHandler(this.BtnRes_Click);
             // 
-            // LblSumador
+            // Label6
             // 
-            this.LblSumador.AutoSize = true;
-            this.LblSumador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSumador.Location = new System.Drawing.Point(256, 92);
-            this.LblSumador.Name = "LblSumador";
-            this.LblSumador.Size = new System.Drawing.Size(19, 20);
-            this.LblSumador.TabIndex = 3;
-            this.LblSumador.Text = "+";
+            this.Label6.AutoSize = true;
+            this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label6.Location = new System.Drawing.Point(256, 92);
+            this.Label6.Name = "Label6";
+            this.Label6.Size = new System.Drawing.Size(19, 20);
+            this.Label6.TabIndex = 3;
+            this.Label6.Text = "+";
             // 
             // label1
             // 
@@ -131,16 +138,16 @@ namespace Ejemplo_Conversion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(734, 191);
+            this.ClientSize = new System.Drawing.Size(812, 241);
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblSumador);
+            this.Controls.Add(this.Label6);
             this.Controls.Add(this.BtnRes);
-            this.Controls.Add(this.Sumador1);
-            this.Controls.Add(this.sumador2);
+            this.Controls.Add(this.TxtSum1);
+            this.Controls.Add(this.TxtSum2);
             this.Name = "FrmConvert";
             this.Text = "Ejemplo_Conversion";
             this.Load += new System.EventHandler(this.FrmConvert_Load);
@@ -151,10 +158,10 @@ namespace Ejemplo_Conversion
 
         #endregion
 
-        private System.Windows.Forms.TextBox sumador2;
-        private System.Windows.Forms.TextBox Sumador1;
+        private System.Windows.Forms.TextBox TxtSum2;
+        private System.Windows.Forms.TextBox TxtSum1;
         private System.Windows.Forms.Button BtnRes;
-        private System.Windows.Forms.Label LblSumador;
+        private System.Windows.Forms.Label Label6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
