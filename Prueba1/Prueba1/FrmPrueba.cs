@@ -12,13 +12,14 @@ namespace Prueba1
 {
     public partial class FrmPrueba : Form
     {
-        string primerVariable = "Leandro, ";
+        string primerVariable = "Hola Leandro, ";
 
         public FrmPrueba()
         {
-            string SegundaVariable = "Hola Leandro, como te va? - HACÉ UN CLICK EN EL BOTON (ACEPTAR)";
+            string SegundaVariable = "Haga un click en (ACEPTAR)";
             InitializeComponent();
-            lblSaludo.Text =  SegundaVariable; 
+            lblSaludo.Text = primerVariable + SegundaVariable;
+            
         }
 
         private void FrmPrueba_Load(object sender, EventArgs e)
@@ -28,14 +29,19 @@ namespace Prueba1
 
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
-            string tercerVariable = "HA PRESIONADO EL BOTON ACEPTAR, Y ESTO HA OCASIONADO UN UN ERROR...";
+            string tercerVariable = "Ahora, click en salir...";
 
-            lblSaludo.Text = "Hola " + primerVariable + tercerVariable;
+            lblSaludo.Text = "Hola " + tercerVariable;
         }
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void lblSaludo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
