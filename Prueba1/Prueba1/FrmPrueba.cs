@@ -16,9 +16,9 @@ namespace Prueba1
 
         public FrmPrueba()
         {
-            string SegundaVariable = " como te va? - HACÉ UN CLICK EN EL BOTON (ACEPTAR)";
+            string SegundaVariable = "Hola Leandro, como te va? - HACÉ UN CLICK EN EL BOTON (ACEPTAR)";
             InitializeComponent();
-            lblSaludo.Text = "Hola " + primerVariable + SegundaVariable; 
+            lblSaludo.Text =  SegundaVariable; 
         }
 
         private void FrmPrueba_Load(object sender, EventArgs e)
