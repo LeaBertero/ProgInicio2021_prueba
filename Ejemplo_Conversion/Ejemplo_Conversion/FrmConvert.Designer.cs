@@ -45,7 +45,7 @@ namespace Ejemplo_Conversion
             this.TxtSum2.BackColor = System.Drawing.Color.Black;
             this.TxtSum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSum2.ForeColor = System.Drawing.Color.Red;
-            this.TxtSum2.Location = new System.Drawing.Point(324, 92);
+            this.TxtSum2.Location = new System.Drawing.Point(296, 127);
             this.TxtSum2.Name = "TxtSum2";
             this.TxtSum2.Size = new System.Drawing.Size(100, 26);
             this.TxtSum2.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace Ejemplo_Conversion
             this.TxtSum1.BackColor = System.Drawing.Color.Black;
             this.TxtSum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSum1.ForeColor = System.Drawing.Color.Red;
-            this.TxtSum1.Location = new System.Drawing.Point(87, 92);
+            this.TxtSum1.Location = new System.Drawing.Point(73, 125);
             this.TxtSum1.Name = "TxtSum1";
             this.TxtSum1.Size = new System.Drawing.Size(100, 26);
             this.TxtSum1.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace Ejemplo_Conversion
             this.BtnRes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnRes.Location = new System.Drawing.Point(494, 82);
+            this.BtnRes.Location = new System.Drawing.Point(466, 117);
             this.BtnRes.Name = "BtnRes";
             this.BtnRes.Size = new System.Drawing.Size(80, 34);
             this.BtnRes.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace Ejemplo_Conversion
             // 
             this.Label6.AutoSize = true;
             this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label6.Location = new System.Drawing.Point(256, 92);
+            this.Label6.Location = new System.Drawing.Point(228, 127);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(19, 20);
             this.Label6.TabIndex = 3;
@@ -88,7 +88,7 @@ namespace Ejemplo_Conversion
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 46);
+            this.label1.Location = new System.Drawing.Point(57, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 20);
             this.label1.TabIndex = 4;
@@ -98,7 +98,7 @@ namespace Ejemplo_Conversion
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(303, 46);
+            this.label2.Location = new System.Drawing.Point(275, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 20);
             this.label2.TabIndex = 5;
@@ -108,7 +108,7 @@ namespace Ejemplo_Conversion
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(509, 46);
+            this.label3.Location = new System.Drawing.Point(481, 81);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 6;
@@ -118,7 +118,7 @@ namespace Ejemplo_Conversion
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(614, 46);
+            this.label4.Location = new System.Drawing.Point(586, 81);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(91, 20);
             this.label4.TabIndex = 7;
@@ -128,7 +128,7 @@ namespace Ejemplo_Conversion
             // 
             this.LblRes.AutoSize = true;
             this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(629, 92);
+            this.LblRes.Location = new System.Drawing.Point(601, 127);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(0, 20);
             this.LblRes.TabIndex = 8;
