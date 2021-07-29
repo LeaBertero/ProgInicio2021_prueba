@@ -138,12 +138,12 @@ namespace Ejemplo_Conversion
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Kristen ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 40);
+            this.label5.Location = new System.Drawing.Point(13, 41);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(1022, 29);
+            this.label5.Size = new System.Drawing.Size(1029, 29);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Ingrese dos números para sumar, en caso de ngresar un decimal, derá hacerlo con c" +
-    "oma...";
+            this.label5.Text = "Ingrese dos números para sumar, en caso de ingresar un decimal, derá hacerlo con " +
+    "coma...";
             // 
             // FrmConvert
             // 
