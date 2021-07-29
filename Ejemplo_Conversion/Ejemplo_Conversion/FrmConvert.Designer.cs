@@ -46,7 +46,7 @@ namespace Ejemplo_Conversion
             this.TxtSum2.BackColor = System.Drawing.Color.Black;
             this.TxtSum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSum2.ForeColor = System.Drawing.Color.Red;
-            this.TxtSum2.Location = new System.Drawing.Point(430, 164);
+            this.TxtSum2.Location = new System.Drawing.Point(436, 162);
             this.TxtSum2.Name = "TxtSum2";
             this.TxtSum2.Size = new System.Drawing.Size(100, 26);
             this.TxtSum2.TabIndex = 0;
