@@ -16,5 +16,22 @@ namespace PruebaIff
         {
             InitializeComponent();
         }
+
+        private void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            var formularioprimero = new FrmSiguiente();
+            formularioprimero.ShowDialog();
+        }
+
+        private void Btn_salir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void segundoboton_Click(object sender, EventArgs e)
+        {
+            var botondos = new FrmSiguiente();
+            botondos.Show();
+        }
     }
 }
