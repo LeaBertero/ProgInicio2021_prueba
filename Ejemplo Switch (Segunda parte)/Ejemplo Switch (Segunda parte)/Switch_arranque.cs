@@ -21,27 +21,32 @@ namespace Ejemplo_Switch__Segunda_parte_
         {
             int nota = System.Convert.ToInt32(TxtNota.Text);
             
-            switch (nota)
+            switch (TxtNota.Text.Trim())
             {
-                case 1:
+                case "1":
                     LblRes.Text = "Aplazado";
                     break;
-                case 2:
+                case "2":
                     LblRes.Text = "Aplazado";
                     break;
-                case 3:
+                case "3":
                     LblRes.Text = "Aprobado";
                     break;
-                case 4:
+                case "4":
                     LblRes.Text = "Promocionado";
                     break;
-                case 5:
+                case "5":
                     LblRes.Text = "Promocionado";
                     break;
                 default:
                     LblRes.Text = "Nota no valida";
                     break;
             }
+        }
+
+        private void Switch_arranque_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

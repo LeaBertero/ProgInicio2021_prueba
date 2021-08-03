@@ -90,6 +90,7 @@ namespace Ejemplo_Switch__Segunda_parte_
             this.Controls.Add(this.BtnAceptar);
             this.Name = "Switch_arranque";
             this.Text = "Ejemplo Switch (Según) - Segunda parte";
+            this.Load += new System.EventHandler(this.Switch_arranque_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
