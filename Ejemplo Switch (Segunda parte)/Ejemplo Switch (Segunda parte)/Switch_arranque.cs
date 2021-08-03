@@ -20,7 +20,7 @@ namespace Ejemplo_Switch__Segunda_parte_
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
             int nota = System.Convert.ToInt32(TxtNota.Text);
-            
+
             switch (TxtNota.Text.Trim())
             {
                 case "1":
@@ -43,7 +43,7 @@ namespace Ejemplo_Switch__Segunda_parte_
                     break;
             }
         }
-
+        
         private void Switch_arranque_Load(object sender, EventArgs e)
         {
 
