@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejemplo_while
 {
-    public partial class EjemploWhile : Form
+    public partial class EjemploWhile_For : Form
     {
-        public EjemploWhile()
+        public EjemploWhile_For()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_while
 {
-    partial class EjemploWhile
+    partial class EjemploWhile_For
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -31,6 +31,7 @@ namespace Ejemplo_while
         {
             this.BtnAceptar = new System.Windows.Forms.Button();
             this.LblMov = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnAceptar
@@ -39,7 +40,7 @@ namespace Ejemplo_while
             this.BtnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAceptar.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAceptar.ForeColor = System.Drawing.Color.Teal;
-            this.BtnAceptar.Location = new System.Drawing.Point(238, 12);
+            this.BtnAceptar.Location = new System.Drawing.Point(566, 232);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(92, 33);
             this.BtnAceptar.TabIndex = 0;
@@ -53,21 +54,33 @@ namespace Ejemplo_while
             this.LblMov.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMov.Location = new System.Drawing.Point(0, 66);
             this.LblMov.Name = "LblMov";
-            this.LblMov.Size = new System.Drawing.Size(70, 76);
+            this.LblMov.Size = new System.Drawing.Size(61, 133);
             this.LblMov.TabIndex = 1;
             // 
-            // EjemploWhile
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(42, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(598, 27);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Presione aceptar, para iniciar el movimiento del rectángulo...";
+            // 
+            // EjemploWhile_For
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GreenYellow;
-            this.ClientSize = new System.Drawing.Size(561, 232);
+            this.ClientSize = new System.Drawing.Size(670, 277);
             this.Controls.Add(this.LblMov);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnAceptar);
-            this.Name = "EjemploWhile";
-            this.Text = "Ejemplo_while";
+            this.Name = "EjemploWhile_For";
+            this.Text = "Ejemplo_while_For";
             this.Load += new System.EventHandler(this.EjemploWhile_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -75,6 +88,7 @@ namespace Ejemplo_while
 
         private System.Windows.Forms.Button BtnAceptar;
         private System.Windows.Forms.Label LblMov;
+        private System.Windows.Forms.Label label1;
     }
 }
 
