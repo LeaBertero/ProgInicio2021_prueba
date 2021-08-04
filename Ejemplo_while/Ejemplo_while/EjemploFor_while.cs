@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejemplo_while
 {
-    public partial class EjemploWhile_For : Form
+    public partial class EjemploFor_while : Form
     {
-        public EjemploWhile_For()
+        public EjemploFor_while()
         {
             InitializeComponent();
         }
@@ -23,12 +23,20 @@ namespace Ejemplo_while
             AnchoFormulario = this.Width;
             int AnchoLabel = LblMov.Width;
             int AnchoBorde = 15;
+            int X = 0;
+            int paso = 1;
 
-            
-            for (int X = 0;  X < AnchoFormulario-AnchoLabel-AnchoBorde; X++)
+
+            //for (int X = 0; X < AnchoFormulario - AnchoLabel - AnchoBorde; X++)
+            //{
+            //    LblMov.Left = X;
+
+            //}
+
+            while (X < AnchoFormulario - AnchoLabel - AnchoBorde)
             {
                 LblMov.Left = X;
-
+                X = X + paso; 
             }
         }
 

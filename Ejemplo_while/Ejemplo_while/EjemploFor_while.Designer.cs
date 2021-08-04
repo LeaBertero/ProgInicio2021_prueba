@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_while
 {
-    partial class EjemploWhile_For
+    partial class EjemploFor_while
     {
         /// <summary>
         /// Variable del diseñador necesaria.

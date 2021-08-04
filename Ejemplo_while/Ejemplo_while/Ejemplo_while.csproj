@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EjemploWhile_For.cs">
+    <Compile Include="EjemploFor_while.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EjemploWhile_For.Designer.cs">
-      <DependentUpon>EjemploWhile_For.cs</DependentUpon>
+    <Compile Include="EjemploFor_while.Designer.cs">
+      <DependentUpon>EjemploFor_while.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="EjemploWhile_For.resx">
-      <DependentUpon>EjemploWhile_For.cs</DependentUpon>
+    <EmbeddedResource Include="EjemploFor_while.resx">
+      <DependentUpon>EjemploFor_while.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
