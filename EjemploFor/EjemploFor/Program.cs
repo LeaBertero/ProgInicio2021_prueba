@@ -16,7 +16,7 @@ namespace EjemploFor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ejemplo_For());
+            Application.Run(new Formulario_contador());
         }
     }
 }
