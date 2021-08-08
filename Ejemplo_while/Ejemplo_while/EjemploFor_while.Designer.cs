@@ -67,8 +67,9 @@ namespace Ejemplo_while
             this.label1.TabIndex = 2;
             this.label1.Text = "Presione aceptar, para iniciar el movimiento del rectángulo...";
             // 
-            // EjemploWhile_For
+            // EjemploFor_while
             // 
+            this.AcceptButton = this.BtnAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GreenYellow;
@@ -76,7 +77,7 @@ namespace Ejemplo_while
             this.Controls.Add(this.LblMov);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnAceptar);
-            this.Name = "EjemploWhile_For";
+            this.Name = "EjemploFor_while";
             this.Text = "Ejemplo_while_For";
             this.Load += new System.EventHandler(this.EjemploWhile_Load);
             this.ResumeLayout(false);
