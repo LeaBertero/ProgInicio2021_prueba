@@ -1,4 +1,4 @@
-Proceso sin_titulo
+Proceso IngreseValor
 	
 	definir i como entero;
 	definir opcion como entero;
