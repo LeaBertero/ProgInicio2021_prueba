@@ -52,9 +52,9 @@ namespace Ejemplo_while
             // 
             this.LblMov.BackColor = System.Drawing.Color.Red;
             this.LblMov.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMov.Location = new System.Drawing.Point(0, 66);
+            this.LblMov.Location = new System.Drawing.Point(0, 110);
             this.LblMov.Name = "LblMov";
-            this.LblMov.Size = new System.Drawing.Size(61, 133);
+            this.LblMov.Size = new System.Drawing.Size(260, 42);
             this.LblMov.TabIndex = 1;
             // 
             // label1
