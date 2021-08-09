@@ -44,4 +44,10 @@ namespace Ejemplo_doWhile
                 }
             } while (Repeticion < TotalRepeticion);
 
-}   }   } 
+}
+
+        private void Ej_DoWhile_Load(object sender, EventArgs e)
+        {
+
+        }
+    }   } 

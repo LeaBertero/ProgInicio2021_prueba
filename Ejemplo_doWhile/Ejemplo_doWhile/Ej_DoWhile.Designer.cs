@@ -67,6 +67,7 @@ namespace Ejemplo_doWhile
             this.Controls.Add(this.BtnAceptar);
             this.Name = "Ej_DoWhile";
             this.Text = "Ejemplo Do While";
+            this.Load += new System.EventHandler(this.Ej_DoWhile_Load);
             this.ResumeLayout(false);
 
         }
