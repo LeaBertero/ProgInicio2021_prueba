@@ -36,6 +36,7 @@ namespace Ejemplo_while
             while (X < AnchoFormulario - AnchoLabel - AnchoBorde)
             {
                 LblMov.Left = X;
+                this.Refresh();
                 X = X + paso; 
             }
         }
