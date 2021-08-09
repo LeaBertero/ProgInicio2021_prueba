@@ -48,9 +48,9 @@ namespace Ejemplo_doWhile
             // LblDes
             // 
             this.LblDes.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.LblDes.Location = new System.Drawing.Point(0, 71);
+            this.LblDes.Location = new System.Drawing.Point(0, 87);
             this.LblDes.Name = "LblDes";
-            this.LblDes.Size = new System.Drawing.Size(23, 80);
+            this.LblDes.Size = new System.Drawing.Size(140, 67);
             this.LblDes.TabIndex = 1;
             // 
             // Ej_DoWhile
