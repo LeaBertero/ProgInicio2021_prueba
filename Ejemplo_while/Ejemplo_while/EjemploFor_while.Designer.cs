@@ -77,6 +77,7 @@ namespace Ejemplo_while
             this.Controls.Add(this.LblMov);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnAceptar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "EjemploFor_while";
             this.Text = "Ejemplo_while_For";
             this.Load += new System.EventHandler(this.EjemploWhile_Load);
