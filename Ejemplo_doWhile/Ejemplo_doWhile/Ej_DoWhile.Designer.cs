@@ -48,10 +48,14 @@ namespace Ejemplo_doWhile
             // LblDes
             // 
             this.LblDes.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.LblDes.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblDes.ImageKey = "(ninguno)";
             this.LblDes.Location = new System.Drawing.Point(0, 87);
             this.LblDes.Name = "LblDes";
-            this.LblDes.Size = new System.Drawing.Size(140, 67);
+            this.LblDes.Size = new System.Drawing.Size(258, 46);
             this.LblDes.TabIndex = 1;
+            this.LblDes.Text = "Mirá como se mueve !! =)";
+            this.LblDes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Ej_DoWhile
             // 
