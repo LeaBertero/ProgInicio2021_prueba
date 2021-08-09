@@ -36,7 +36,7 @@ namespace Ejemplo_doWhile
                 Paso = 1;
                 Repeticion = Repeticion + 1;
 
-                while (X < AnchoFormulario - AnchoBorde - AnchoLabel))
+                while (X < AnchoFormulario - AnchoBorde - AnchoLabel)
                 {
                     LblDes.Left = X;
                     this.Refresh();
@@ -44,4 +44,4 @@ namespace Ejemplo_doWhile
                 }
             } while (Repeticion < TotalRepeticion);
 
-}   }   }  
+}   }   } 
