@@ -107,9 +107,9 @@ namespace LabelCoolors_Button
             this.BtnMovRojo.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMovRojo.Location = new System.Drawing.Point(65, 328);
             this.BtnMovRojo.Name = "BtnMovRojo";
-            this.BtnMovRojo.Size = new System.Drawing.Size(160, 64);
+            this.BtnMovRojo.Size = new System.Drawing.Size(110, 47);
             this.BtnMovRojo.TabIndex = 5;
-            this.BtnMovRojo.Text = "Mover rectángulo rojo";
+            this.BtnMovRojo.Text = "Mover";
             this.BtnMovRojo.UseVisualStyleBackColor = false;
             this.BtnMovRojo.Click += new System.EventHandler(this.BtnMovRojo_Click);
             // 
