@@ -40,6 +40,7 @@ namespace LabelCoolors_Button
             // BtnRojo
             // 
             this.BtnRojo.BackColor = System.Drawing.Color.Orange;
+            this.BtnRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRojo.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRojo.Location = new System.Drawing.Point(308, 12);
             this.BtnRojo.Name = "BtnRojo";
@@ -87,6 +88,7 @@ namespace LabelCoolors_Button
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Orange;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(185, 70);
             this.button3.Name = "button3";
@@ -96,7 +98,7 @@ namespace LabelCoolors_Button
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // HolaMundo_prueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +110,7 @@ namespace LabelCoolors_Button
             this.Controls.Add(this.BtnVerde);
             this.Controls.Add(this.BtnRojo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "HolaMundo_prueba";
             this.Text = "Hola Mundo_prueba";
             this.ResumeLayout(false);
 
