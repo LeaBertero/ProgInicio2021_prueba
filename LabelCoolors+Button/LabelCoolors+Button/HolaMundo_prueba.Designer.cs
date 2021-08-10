@@ -1,7 +1,7 @@
 ﻿
 namespace LabelCoolors_Button
 {
-    partial class Form1
+    partial class HolaMundo_prueba
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@ namespace LabelCoolors_Button
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HolaMundo_prueba));
             this.BtnRojo = new System.Windows.Forms.Button();
             this.BtnVerde = new System.Windows.Forms.Button();
             this.LblRojo = new System.Windows.Forms.Label();

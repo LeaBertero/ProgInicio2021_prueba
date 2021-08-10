@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LabelCoolors_Button
 {
-    public partial class Form1 : Form
+    public partial class HolaMundo_prueba : Form
     {
-        public Form1()
+        public HolaMundo_prueba()
         {
             InitializeComponent();
         }
