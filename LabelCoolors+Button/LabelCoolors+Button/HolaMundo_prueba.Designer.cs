@@ -35,6 +35,8 @@ namespace LabelCoolors_Button
             this.LblRojo = new System.Windows.Forms.Label();
             this.LblVerde = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.BtnMovRojo = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnRojo
@@ -42,11 +44,11 @@ namespace LabelCoolors_Button
             this.BtnRojo.BackColor = System.Drawing.Color.Orange;
             this.BtnRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRojo.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRojo.Location = new System.Drawing.Point(308, 12);
+            this.BtnRojo.Location = new System.Drawing.Point(545, 28);
             this.BtnRojo.Name = "BtnRojo";
-            this.BtnRojo.Size = new System.Drawing.Size(111, 39);
+            this.BtnRojo.Size = new System.Drawing.Size(177, 63);
             this.BtnRojo.TabIndex = 0;
-            this.BtnRojo.Text = "Iniciar  rojo";
+            this.BtnRojo.Text = "Inicie rectángulo rojo";
             this.BtnRojo.UseVisualStyleBackColor = false;
             this.BtnRojo.Click += new System.EventHandler(this.BtnRojo_Click);
             // 
@@ -55,11 +57,11 @@ namespace LabelCoolors_Button
             this.BtnVerde.BackColor = System.Drawing.Color.Orange;
             this.BtnVerde.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnVerde.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnVerde.Location = new System.Drawing.Point(32, 12);
+            this.BtnVerde.Location = new System.Drawing.Point(65, 28);
             this.BtnVerde.Name = "BtnVerde";
-            this.BtnVerde.Size = new System.Drawing.Size(120, 39);
+            this.BtnVerde.Size = new System.Drawing.Size(187, 63);
             this.BtnVerde.TabIndex = 1;
-            this.BtnVerde.Text = "Iniciar verde";
+            this.BtnVerde.Text = "Inicie rectángulo verde";
             this.BtnVerde.UseVisualStyleBackColor = false;
             this.BtnVerde.Click += new System.EventHandler(this.BtnVerde_Click);
             // 
@@ -68,7 +70,7 @@ namespace LabelCoolors_Button
             this.LblRojo.BackColor = System.Drawing.Color.Red;
             this.LblRojo.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRojo.ForeColor = System.Drawing.Color.White;
-            this.LblRojo.Location = new System.Drawing.Point(29, 70);
+            this.LblRojo.Location = new System.Drawing.Point(61, 192);
             this.LblRojo.Name = "LblRojo";
             this.LblRojo.Size = new System.Drawing.Size(114, 51);
             this.LblRojo.TabIndex = 2;
@@ -79,7 +81,7 @@ namespace LabelCoolors_Button
             this.LblVerde.BackColor = System.Drawing.Color.Green;
             this.LblVerde.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblVerde.ForeColor = System.Drawing.Color.White;
-            this.LblVerde.Location = new System.Drawing.Point(305, 70);
+            this.LblVerde.Location = new System.Drawing.Point(599, 192);
             this.LblVerde.Name = "LblVerde";
             this.LblVerde.Size = new System.Drawing.Size(123, 51);
             this.LblVerde.TabIndex = 3;
@@ -90,7 +92,7 @@ namespace LabelCoolors_Button
             this.button3.BackColor = System.Drawing.Color.Orange;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(185, 70);
+            this.button3.Location = new System.Drawing.Point(710, 389);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(81, 29);
             this.button3.TabIndex = 4;
@@ -98,12 +100,37 @@ namespace LabelCoolors_Button
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // BtnMovRojo
+            // 
+            this.BtnMovRojo.BackColor = System.Drawing.Color.Orange;
+            this.BtnMovRojo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnMovRojo.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMovRojo.Location = new System.Drawing.Point(65, 328);
+            this.BtnMovRojo.Name = "BtnMovRojo";
+            this.BtnMovRojo.Size = new System.Drawing.Size(160, 64);
+            this.BtnMovRojo.TabIndex = 5;
+            this.BtnMovRojo.Text = "Mover rectángulo rojo";
+            this.BtnMovRojo.UseVisualStyleBackColor = false;
+            this.BtnMovRojo.Click += new System.EventHandler(this.BtnMovRojo_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(61, 289);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(609, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Presione el botón \"Mover\", para que se mueva a la derecha el rectángulo verde...";
+            // 
             // HolaMundo_prueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(451, 167);
+            this.ClientSize = new System.Drawing.Size(803, 430);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BtnMovRojo);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.LblVerde);
             this.Controls.Add(this.LblRojo);
@@ -113,6 +140,7 @@ namespace LabelCoolors_Button
             this.Name = "HolaMundo_prueba";
             this.Text = "Hola Mundo_prueba";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -123,6 +151,8 @@ namespace LabelCoolors_Button
         private System.Windows.Forms.Label LblRojo;
         private System.Windows.Forms.Label LblVerde;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnMovRojo;
+        private System.Windows.Forms.Label label1;
     }
 }
 

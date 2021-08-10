@@ -31,5 +31,22 @@ namespace LabelCoolors_Button
         {
             LblVerde.Text = "Soy Rojo";
         }
+
+        private void BtnMovRojo_Click(object sender, EventArgs e)
+        {
+            int AnchoFormulario = 0;
+            AnchoFormulario = this.Width;
+            int AnchoLabel = LblRojo.Width;
+            int AnchoBorde = 10;
+            int X = 0;
+            int Paso = 1;
+
+            while (X < AnchoFormulario - AnchoLabel - AnchoBorde)
+            {
+                LblRojo.Left = X;
+                this.Refresh();
+                X = X + Paso;
+            }
+        }
     }
 }
