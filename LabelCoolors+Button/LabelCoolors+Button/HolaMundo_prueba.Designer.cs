@@ -129,11 +129,11 @@ namespace LabelCoolors_Button
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(803, 430);
+            this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnMovRojo);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.LblVerde);
-            this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.BtnVerde);
             this.Controls.Add(this.BtnRojo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
