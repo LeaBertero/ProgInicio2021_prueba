@@ -21,5 +21,26 @@ namespace PrimerPrograma_HOLAMUNDO2021
         {
 
         }
+
+        private void BtnAceptar_Click(object sender, EventArgs e)
+        {
+
+
+            if (this.label1.Text == "Chau")
+            {
+                this.label1.Text = "Hola Mundo";
+            }
+            else
+            {
+                this.label1.Text = "Chau";
+            }
+        }
     }
-}
+}   
+
+
+
+
+
+
+
