@@ -24,12 +24,12 @@ namespace LabelCoolors_Button
 
         private void BtnRojo_Click(object sender, EventArgs e)
         {
-            LblRojo.Text = "Soy verde";
+            LblRojo.Text = "Yo soy el Rojo !!!";
         }
 
         private void BtnVerde_Click(object sender, EventArgs e)
         {
-            LblVerde.Text = "Soy Rojo";
+            LblVerde.Text = "Yo, soy Rojo...";
         }
 
         private void BtnMovRojo_Click(object sender, EventArgs e)
@@ -37,9 +37,9 @@ namespace LabelCoolors_Button
             int AnchoFormulario = 0;
             AnchoFormulario = this.Width;
             int AnchoLabel = LblRojo.Width;
-            int AnchoBorde = 10;
+            int AnchoBorde = 119;
             int X = 0;
-            int Paso = 1;
+            int Paso = 5;
 
             while (X < AnchoFormulario - AnchoLabel - AnchoBorde)
             {
@@ -47,6 +47,11 @@ namespace LabelCoolors_Button
                 this.Refresh();
                 X = X + Paso;
             }
+        }
+
+        private void LblVerde_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
