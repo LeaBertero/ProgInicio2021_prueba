@@ -26,13 +26,13 @@ namespace PrimerPrograma_HOLAMUNDO2021
         {
 
 
-            if (this.label1.Text == "Chau")
+            if (this.LblMensaje.Text == "Chau")
             {
-                this.label1.Text = "Hola Mundo";
+                this.LblMensaje.Text = "Hola Mundo";
             }
             else
             {
-                this.label1.Text = "Chau";
+                this.LblMensaje.Text = "Chau";
             }
         }
     }

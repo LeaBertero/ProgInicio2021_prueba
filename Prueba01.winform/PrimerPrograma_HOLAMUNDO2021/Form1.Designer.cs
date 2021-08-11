@@ -29,20 +29,20 @@ namespace PrimerPrograma_HOLAMUNDO2021
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.LblMensaje = new System.Windows.Forms.Label();
             this.BtnAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // LblMensaje
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(75, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 38);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Label1";
+            this.LblMensaje.AutoSize = true;
+            this.LblMensaje.Font = new System.Drawing.Font("Tempus Sans ITC", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensaje.Location = new System.Drawing.Point(75, 31);
+            this.LblMensaje.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.LblMensaje.Name = "LblMensaje";
+            this.LblMensaje.Size = new System.Drawing.Size(96, 38);
+            this.LblMensaje.TabIndex = 0;
+            this.LblMensaje.Text = "Label1";
             // 
             // BtnAceptar
             // 
@@ -67,7 +67,7 @@ namespace PrimerPrograma_HOLAMUNDO2021
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(362, 217);
             this.Controls.Add(this.BtnAceptar);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LblMensaje);
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Form1";
             this.Text = "PRIMER PROGRAMA - HOLA MUNDO 2021";
@@ -79,7 +79,7 @@ namespace PrimerPrograma_HOLAMUNDO2021
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LblMensaje;
         private System.Windows.Forms.Button BtnAceptar;
     }
 }
