@@ -30,7 +30,13 @@ namespace HolaMundo
         private void btnaceptar2_Click(object sender, EventArgs e)
         {
 
-            lblmensaje2.Text = "FELICITACIONES !! ";
-        }
+            //this.lblmensaje2.Text = "FELICITACIONES !! ";
+
+            if (this.lblmensaje2.Text == "FELICITACIONES !! ")
+            {
+               this.lblmensaje2.Text = "Felicitaciones";
+            }
+        }   
+               
     }
 }
