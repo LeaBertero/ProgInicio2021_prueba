@@ -19,12 +19,12 @@ namespace MovimientoDeRectangulos
 
         private void BtnBlanco_Click(object sender, EventArgs e)
         {
-            int AnchoFormulario = 65;
+            int AnchoFormulario = 100;
             AnchoFormulario = this.Width;
             int AnchoLabel = LblBlanco.Width;
-            int AnchoBorde = 85;
+            int AnchoBorde = 250;
             int X = 0;
-            int Paso = 5;
+            int Paso = 2;
 
             while (X < AnchoFormulario - AnchoLabel - AnchoBorde)
             {
@@ -36,10 +36,10 @@ namespace MovimientoDeRectangulos
 
         private void BtnNegro_Click(object sender, EventArgs e)
         {
-            int AnchoFor = 0;
+            int AnchoFor = 30;
             AnchoFor = this.Width;
             int AnchoLab = LblNegro.Width;
-            int AnchoBor = 85;
+            int AnchoBor = 500;
             int X = 0;
             int Paso = 2;
 
@@ -49,6 +49,16 @@ namespace MovimientoDeRectangulos
                 this.Refresh();
                 X = X + Paso;
             }
+        }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void FrmDesplazamiento_Load(object sender, EventArgs e)
+        {
+
         }
     }
     

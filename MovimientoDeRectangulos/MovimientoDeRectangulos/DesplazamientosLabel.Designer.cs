@@ -33,11 +33,12 @@ namespace MovimientoDeRectangulos
             this.BtnNegro = new System.Windows.Forms.Button();
             this.LblBlanco = new System.Windows.Forms.Label();
             this.LblNegro = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnBlanco
             // 
-            this.BtnBlanco.Location = new System.Drawing.Point(124, 113);
+            this.BtnBlanco.Location = new System.Drawing.Point(3, 179);
             this.BtnBlanco.Name = "BtnBlanco";
             this.BtnBlanco.Size = new System.Drawing.Size(128, 39);
             this.BtnBlanco.TabIndex = 0;
@@ -47,7 +48,7 @@ namespace MovimientoDeRectangulos
             // 
             // BtnNegro
             // 
-            this.BtnNegro.Location = new System.Drawing.Point(474, 113);
+            this.BtnNegro.Location = new System.Drawing.Point(437, 0);
             this.BtnNegro.Name = "BtnNegro";
             this.BtnNegro.Size = new System.Drawing.Size(128, 39);
             this.BtnNegro.TabIndex = 1;
@@ -58,7 +59,7 @@ namespace MovimientoDeRectangulos
             // LblBlanco
             // 
             this.LblBlanco.BackColor = System.Drawing.Color.White;
-            this.LblBlanco.Location = new System.Drawing.Point(121, 247);
+            this.LblBlanco.Location = new System.Drawing.Point(0, 233);
             this.LblBlanco.Name = "LblBlanco";
             this.LblBlanco.Size = new System.Drawing.Size(169, 42);
             this.LblBlanco.TabIndex = 2;
@@ -66,10 +67,21 @@ namespace MovimientoDeRectangulos
             // LblNegro
             // 
             this.LblNegro.BackColor = System.Drawing.SystemColors.InfoText;
-            this.LblNegro.Location = new System.Drawing.Point(471, 196);
+            this.LblNegro.Location = new System.Drawing.Point(382, 0);
             this.LblNegro.Name = "LblNegro";
             this.LblNegro.Size = new System.Drawing.Size(49, 161);
             this.LblNegro.TabIndex = 3;
+            this.LblNegro.ForeColorChanged += new System.EventHandler(this.BtnNegro_Click);
+            // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Location = new System.Drawing.Point(696, 399);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(92, 39);
+            this.BtnSalir.TabIndex = 4;
+            this.BtnSalir.Text = "Cerar";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // FrmDesplazamiento
             // 
@@ -77,12 +89,15 @@ namespace MovimientoDeRectangulos
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblBlanco);
             this.Controls.Add(this.LblNegro);
             this.Controls.Add(this.BtnNegro);
             this.Controls.Add(this.BtnBlanco);
             this.Name = "FrmDesplazamiento";
+            this.Opacity = 0.8D;
             this.Text = "Movimiento de 2 Label";
+            this.Load += new System.EventHandler(this.FrmDesplazamiento_Load);
             this.ResumeLayout(false);
 
         }
@@ -93,6 +108,7 @@ namespace MovimientoDeRectangulos
         private System.Windows.Forms.Button BtnNegro;
         private System.Windows.Forms.Label LblBlanco;
         private System.Windows.Forms.Label LblNegro;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 
