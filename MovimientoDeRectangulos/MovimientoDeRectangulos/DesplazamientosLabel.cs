@@ -19,10 +19,10 @@ namespace MovimientoDeRectangulos
 
         private void BtnBlanco_Click(object sender, EventArgs e)
         {
-            int AnchoFormulario = 100;
+            int AnchoFormulario = 0;
             AnchoFormulario = this.Width;
             int AnchoLabel = LblBlanco.Width;
-            int AnchoBorde = 250;
+            int AnchoBorde = 330;
             int X = 0;
             int Paso = 2;
 
@@ -39,9 +39,10 @@ namespace MovimientoDeRectangulos
             int AnchoFor = 30;
             AnchoFor = this.Width;
             int AnchoLab = LblNegro.Width;
-            int AnchoBor = 500;
+            int AnchoBor = 490;
             int X = 0;
             int Paso = 2;
+            
 
             while (X < AnchoFor - AnchoLab - AnchoBor)
             {
@@ -59,6 +60,16 @@ namespace MovimientoDeRectangulos
         private void FrmDesplazamiento_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void LblNegro_Click(object sender, EventArgs e)
+        {
+            this.LblNegro.Text = "hola";
+        }
+
+        private void BtnTxt_Click(object sender, EventArgs e)
+        {
+            this.LblText.Text = "Ha logrado formar una T";
         }
     }
     
