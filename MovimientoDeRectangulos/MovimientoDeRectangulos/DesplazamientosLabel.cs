@@ -69,7 +69,7 @@ namespace MovimientoDeRectangulos
 
         private void BtnTxt_Click(object sender, EventArgs e)
         {
-            this.LblText.Text = "Ha logrado formar una T";
+            this.LblText.Text = "Se ha formado una T";
         }
     }
     

@@ -99,9 +99,9 @@ namespace MovimientoDeRectangulos
             // LblText
             // 
             this.LblText.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblText.Location = new System.Drawing.Point(238, 161);
+            this.LblText.Location = new System.Drawing.Point(298, 186);
             this.LblText.Name = "LblText";
-            this.LblText.Size = new System.Drawing.Size(422, 59);
+            this.LblText.Size = new System.Drawing.Size(350, 59);
             this.LblText.TabIndex = 5;
             // 
             // BtnTxt
@@ -125,11 +125,11 @@ namespace MovimientoDeRectangulos
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LblNegro);
             this.Controls.Add(this.BtnTxt);
-            this.Controls.Add(this.LblText);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnNegro);
             this.Controls.Add(this.BtnBlanco);
             this.Controls.Add(this.LblBlanco);
+            this.Controls.Add(this.LblText);
             this.Name = "FrmDesplazamiento";
             this.Text = "Movimiento de 2 Label";
             this.Load += new System.EventHandler(this.FrmDesplazamiento_Load);
