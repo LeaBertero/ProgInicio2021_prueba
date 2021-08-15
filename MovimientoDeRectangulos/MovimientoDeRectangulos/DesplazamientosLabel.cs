@@ -64,7 +64,7 @@ namespace MovimientoDeRectangulos
 
         private void LblNegro_Click(object sender, EventArgs e)
         {
-            this.LblNegro.Text = "hola";
+            
         }
 
         private void BtnTxt_Click(object sender, EventArgs e)
