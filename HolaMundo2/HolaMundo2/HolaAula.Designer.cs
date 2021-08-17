@@ -41,9 +41,9 @@ namespace HolaMundo2
             this.LblEtiqueta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblEtiqueta.Location = new System.Drawing.Point(51, 9);
             this.LblEtiqueta.Name = "LblEtiqueta";
-            this.LblEtiqueta.Size = new System.Drawing.Size(236, 20);
+            this.LblEtiqueta.Size = new System.Drawing.Size(146, 20);
             this.LblEtiqueta.TabIndex = 0;
-            this.LblEtiqueta.Text = "Ingrese el nombre de la materia:";
+            this.LblEtiqueta.Text = "Ingrese su nombre:";
             // 
             // LblMensaje
             // 
@@ -58,7 +58,7 @@ namespace HolaMundo2
             // 
             this.BtnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInicio.Location = new System.Drawing.Point(442, 183);
+            this.BtnInicio.Location = new System.Drawing.Point(664, 183);
             this.BtnInicio.Name = "BtnInicio";
             this.BtnInicio.Size = new System.Drawing.Size(112, 34);
             this.BtnInicio.TabIndex = 2;
@@ -80,7 +80,7 @@ namespace HolaMundo2
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(170)))));
-            this.ClientSize = new System.Drawing.Size(566, 229);
+            this.ClientSize = new System.Drawing.Size(788, 229);
             this.Controls.Add(this.TxtMensaje);
             this.Controls.Add(this.BtnInicio);
             this.Controls.Add(this.LblMensaje);

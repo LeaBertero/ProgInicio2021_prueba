@@ -19,7 +19,7 @@ namespace HolaMundo2
 
         private void BtnInicio_Click(object sender, EventArgs e)
         {
-            LblMensaje.Text = "Hola Gente de la materia " + TxtMensaje.Text ;
+            LblMensaje.Text = "Ingreso de nombre, es correcto.. que tenga un buen día... " + TxtMensaje.Text ;
         }
     }
 }
