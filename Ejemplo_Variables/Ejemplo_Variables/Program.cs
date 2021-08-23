@@ -16,7 +16,7 @@ namespace Ejemplo_Variables
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PruebaVariables());
+            Application.Run(new PruebaDeVariables());
         }
     }
 }

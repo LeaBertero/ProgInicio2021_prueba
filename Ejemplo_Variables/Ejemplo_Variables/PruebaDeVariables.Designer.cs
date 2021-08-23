@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_Variables
 {
-    partial class PruebaVariables
+    partial class PruebaDeVariables
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -121,7 +121,7 @@ namespace Ejemplo_Variables
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(602, 213);
+            this.ClientSize = new System.Drawing.Size(573, 216);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LblRes);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejemplo_Variables
 {
-    public partial class PruebaVariables : Form
+    public partial class PruebaDeVariables : Form
     {
-        public PruebaVariables()
+        public PruebaDeVariables()
         {
             InitializeComponent();
         }

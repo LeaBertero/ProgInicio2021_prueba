@@ -159,7 +159,7 @@ namespace LabelCoolors_Button
             this.LblMenBlack.Name = "LblMenBlack";
             this.LblMenBlack.Size = new System.Drawing.Size(275, 51);
             this.LblMenBlack.TabIndex = 9;
-            this.LblMenBlack.Text = "El rectángulo rojo, tiene razón !!";
+            this.LblMenBlack.Text = "El rectángulo rojo, es el verdadero !!";
             this.LblMenBlack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnMovBlack
@@ -171,7 +171,7 @@ namespace LabelCoolors_Button
             this.BtnMovBlack.Name = "BtnMovBlack";
             this.BtnMovBlack.Size = new System.Drawing.Size(128, 50);
             this.BtnMovBlack.TabIndex = 10;
-            this.BtnMovBlack.Text = "Iniciar";
+            this.BtnMovBlack.Text = "Mover rectángulo negro";
             this.BtnMovBlack.UseVisualStyleBackColor = false;
             this.BtnMovBlack.Click += new System.EventHandler(this.BtnMovBlack_Click);
             // 
