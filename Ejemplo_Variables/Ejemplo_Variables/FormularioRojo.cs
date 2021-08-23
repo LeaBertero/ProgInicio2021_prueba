@@ -32,5 +32,15 @@ namespace Ejemplo_Variables
         {
             Close();
         }
+
+        private void BtnResult_Click(object sender, EventArgs e)
+        {
+            int NumRest1 = System.Convert.ToInt16(TxtIng1.Text);
+            int NumRest2 = System.Convert.ToInt16(TxtIng2.Text);
+
+            decimal resultado = (NumRest1 - NumRest2);
+
+            LblResult.Text = System.Convert.ToString(resultado);
+        }
     }
 }

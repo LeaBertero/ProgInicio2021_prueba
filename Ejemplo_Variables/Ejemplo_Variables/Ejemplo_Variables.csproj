@@ -46,25 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PruebaVariablesCont.cs">
+    <Compile Include="FormularioRojo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PruebaVariablesCont.Designer.cs">
-      <DependentUpon>PruebaVariablesCont.cs</DependentUpon>
+    <Compile Include="FormularioRojo.Designer.cs">
+      <DependentUpon>FormularioRojo.cs</DependentUpon>
     </Compile>
-    <Compile Include="PruebaEjecForm_PruevaVariables.cs">
+    <Compile Include="FormularioAzul.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PruebaEjecForm_PruevaVariables.Designer.cs">
-      <DependentUpon>PruebaEjecForm_PruevaVariables.cs</DependentUpon>
+    <Compile Include="FormularioAzul.Designer.cs">
+      <DependentUpon>FormularioAzul.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PruebaVariablesCont.resx">
-      <DependentUpon>PruebaVariablesCont.cs</DependentUpon>
+    <EmbeddedResource Include="FormularioRojo.resx">
+      <DependentUpon>FormularioRojo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PruebaEjecForm_PruevaVariables.resx">
-      <DependentUpon>PruebaEjecForm_PruevaVariables.cs</DependentUpon>
+    <EmbeddedResource Include="FormularioAzul.resx">
+      <DependentUpon>FormularioAzul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
