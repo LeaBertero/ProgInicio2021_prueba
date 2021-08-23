@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_Variables
 {
-    partial class PruebaDeVariables
+    partial class FrmAzul
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -37,91 +37,116 @@ namespace Ejemplo_Variables
             this.LblRes = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.BtnRojo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAceptar
             // 
+            this.BtnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAceptar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnAceptar.Location = new System.Drawing.Point(432, 31);
+            this.BtnAceptar.Location = new System.Drawing.Point(374, 161);
             this.BtnAceptar.Name = "BtnAceptar";
-            this.BtnAceptar.Size = new System.Drawing.Size(101, 50);
+            this.BtnAceptar.Size = new System.Drawing.Size(91, 36);
             this.BtnAceptar.TabIndex = 0;
-            this.BtnAceptar.Text = "Aceptar";
+            this.BtnAceptar.Text = "=";
             this.BtnAceptar.UseVisualStyleBackColor = true;
             this.BtnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             // 
             // TxtNum1
             // 
-            this.TxtNum1.Location = new System.Drawing.Point(55, 61);
+            this.TxtNum1.BackColor = System.Drawing.Color.Navy;
+            this.TxtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNum1.ForeColor = System.Drawing.SystemColors.Window;
+            this.TxtNum1.Location = new System.Drawing.Point(374, 17);
             this.TxtNum1.Name = "TxtNum1";
-            this.TxtNum1.Size = new System.Drawing.Size(100, 20);
+            this.TxtNum1.Size = new System.Drawing.Size(100, 29);
             this.TxtNum1.TabIndex = 1;
             // 
             // TxtNum2
             // 
-            this.TxtNum2.Location = new System.Drawing.Point(241, 61);
+            this.TxtNum2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.TxtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNum2.ForeColor = System.Drawing.SystemColors.Window;
+            this.TxtNum2.Location = new System.Drawing.Point(374, 112);
             this.TxtNum2.Name = "TxtNum2";
-            this.TxtNum2.Size = new System.Drawing.Size(100, 20);
+            this.TxtNum2.Size = new System.Drawing.Size(100, 29);
             this.TxtNum2.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(52, 29);
+            this.label1.Location = new System.Drawing.Point(54, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 13);
+            this.label1.Size = new System.Drawing.Size(224, 24);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Ingrese primer sumando";
+            this.label1.Text = "Ingrese primer número";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(238, 29);
+            this.label2.Location = new System.Drawing.Point(54, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 13);
+            this.label2.Size = new System.Drawing.Size(246, 24);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Ingrese segundo sumando";
+            this.label2.Text = "Ingrese segundo número";
             // 
             // LblRes
             // 
             this.LblRes.BackColor = System.Drawing.Color.Red;
-            this.LblRes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.LblRes.Location = new System.Drawing.Point(429, 117);
+            this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblRes.ForeColor = System.Drawing.SystemColors.Control;
+            this.LblRes.Location = new System.Drawing.Point(352, 217);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(104, 57);
+            this.LblRes.Size = new System.Drawing.Size(136, 57);
             this.LblRes.TabIndex = 5;
             this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(195, 64);
+            this.label3.Location = new System.Drawing.Point(412, 64);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.Size = new System.Drawing.Size(22, 24);
             this.label3.TabIndex = 6;
             this.label3.Text = "+";
             // 
             // btnCerrar
             // 
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCerrar.Location = new System.Drawing.Point(12, 171);
+            this.btnCerrar.Location = new System.Drawing.Point(553, 213);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(82, 30);
+            this.btnCerrar.Size = new System.Drawing.Size(82, 67);
             this.btnCerrar.TabIndex = 7;
             this.btnCerrar.Text = "Salir";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // PruebaVariables
+            // BtnRojo
+            // 
+            this.BtnRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRojo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnRojo.Location = new System.Drawing.Point(12, 241);
+            this.BtnRojo.Name = "BtnRojo";
+            this.BtnRojo.Size = new System.Drawing.Size(224, 42);
+            this.BtnRojo.TabIndex = 8;
+            this.BtnRojo.Text = "Ir Formulario Rojo";
+            this.BtnRojo.UseVisualStyleBackColor = true;
+            this.BtnRojo.Click += new System.EventHandler(this.BtnRojo_Click);
+            // 
+            // FrmAzul
             // 
             this.AcceptButton = this.BtnAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(573, 216);
+            this.ClientSize = new System.Drawing.Size(653, 297);
+            this.Controls.Add(this.BtnRojo);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LblRes);
@@ -131,8 +156,9 @@ namespace Ejemplo_Variables
             this.Controls.Add(this.TxtNum1);
             this.Controls.Add(this.BtnAceptar);
             this.ForeColor = System.Drawing.SystemColors.Control;
-            this.Name = "PruebaVariables";
-            this.Text = "Primer Programa";
+            this.Name = "FrmAzul";
+            this.Text = "Azul";
+            this.Load += new System.EventHandler(this.FormularioAzul_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,6 +174,7 @@ namespace Ejemplo_Variables
         private System.Windows.Forms.Label LblRes;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button BtnRojo;
     }
 }
 

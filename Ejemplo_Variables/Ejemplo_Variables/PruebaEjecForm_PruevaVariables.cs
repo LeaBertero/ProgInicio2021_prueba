@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejemplo_Variables
 {
-    public partial class PruebaDeVariables : Form
+    public partial class FrmAzul : Form
     {
-        public PruebaDeVariables()
+        public FrmAzul()
         {
             InitializeComponent();
         }
@@ -30,6 +30,17 @@ namespace Ejemplo_Variables
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void FormularioAzul_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnRojo_Click(object sender, EventArgs e)
+        {
+            Form FormularioRed = new FrmRojo();
+            FormularioRed.Show();
         }
     }
 }
