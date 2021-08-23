@@ -44,7 +44,7 @@ namespace Ejemplo_Variables
             // 
             this.BtnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAceptar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnAceptar.Location = new System.Drawing.Point(374, 161);
+            this.BtnAceptar.Location = new System.Drawing.Point(402, 120);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(91, 36);
             this.BtnAceptar.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace Ejemplo_Variables
             this.TxtNum1.BackColor = System.Drawing.Color.Navy;
             this.TxtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNum1.ForeColor = System.Drawing.SystemColors.Window;
-            this.TxtNum1.Location = new System.Drawing.Point(374, 17);
+            this.TxtNum1.Location = new System.Drawing.Point(277, 67);
             this.TxtNum1.Name = "TxtNum1";
             this.TxtNum1.Size = new System.Drawing.Size(100, 29);
             this.TxtNum1.TabIndex = 1;
@@ -67,7 +67,7 @@ namespace Ejemplo_Variables
             this.TxtNum2.BackColor = System.Drawing.Color.MidnightBlue;
             this.TxtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNum2.ForeColor = System.Drawing.SystemColors.Window;
-            this.TxtNum2.Location = new System.Drawing.Point(374, 112);
+            this.TxtNum2.Location = new System.Drawing.Point(277, 162);
             this.TxtNum2.Name = "TxtNum2";
             this.TxtNum2.Size = new System.Drawing.Size(100, 29);
             this.TxtNum2.TabIndex = 2;
@@ -77,7 +77,7 @@ namespace Ejemplo_Variables
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(54, 13);
+            this.label1.Location = new System.Drawing.Point(12, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 24);
             this.label1.TabIndex = 3;
@@ -88,7 +88,7 @@ namespace Ejemplo_Variables
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(54, 107);
+            this.label2.Location = new System.Drawing.Point(8, 165);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(246, 24);
             this.label2.TabIndex = 4;
@@ -99,7 +99,7 @@ namespace Ejemplo_Variables
             this.LblRes.BackColor = System.Drawing.Color.Red;
             this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRes.ForeColor = System.Drawing.SystemColors.Control;
-            this.LblRes.Location = new System.Drawing.Point(352, 217);
+            this.LblRes.Location = new System.Drawing.Point(537, 111);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(136, 57);
             this.LblRes.TabIndex = 5;
@@ -110,7 +110,7 @@ namespace Ejemplo_Variables
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(412, 64);
+            this.label3.Location = new System.Drawing.Point(317, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(22, 24);
             this.label3.TabIndex = 6;
@@ -118,12 +118,13 @@ namespace Ejemplo_Variables
             // 
             // btnCerrar
             // 
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCerrar.Location = new System.Drawing.Point(553, 213);
+            this.btnCerrar.Location = new System.Drawing.Point(606, 16);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(82, 67);
+            this.btnCerrar.Size = new System.Drawing.Size(100, 32);
             this.btnCerrar.TabIndex = 7;
-            this.btnCerrar.Text = "Salir";
+            this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
@@ -131,11 +132,11 @@ namespace Ejemplo_Variables
             // 
             this.BtnRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRojo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnRojo.Location = new System.Drawing.Point(12, 241);
+            this.BtnRojo.Location = new System.Drawing.Point(12, 6);
             this.BtnRojo.Name = "BtnRojo";
-            this.BtnRojo.Size = new System.Drawing.Size(224, 42);
+            this.BtnRojo.Size = new System.Drawing.Size(157, 42);
             this.BtnRojo.TabIndex = 8;
-            this.BtnRojo.Text = "Ir Formulario Rojo";
+            this.BtnRojo.Text = "Abrir Form.Rojo";
             this.BtnRojo.UseVisualStyleBackColor = true;
             this.BtnRojo.Click += new System.EventHandler(this.BtnRojo_Click);
             // 
@@ -145,7 +146,7 @@ namespace Ejemplo_Variables
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(653, 297);
+            this.ClientSize = new System.Drawing.Size(718, 246);
             this.Controls.Add(this.BtnRojo);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.label3);

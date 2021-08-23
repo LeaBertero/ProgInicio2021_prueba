@@ -27,5 +27,10 @@ namespace Ejemplo_Variables
             Form FormularioBlue = new FrmAzul();
             FormularioBlue.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

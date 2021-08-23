@@ -30,18 +30,30 @@ namespace Ejemplo_Variables
         private void InitializeComponent()
         {
             this.BtnAzul = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAzul
             // 
             this.BtnAzul.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAzul.Location = new System.Drawing.Point(405, 12);
+            this.BtnAzul.Location = new System.Drawing.Point(12, 12);
             this.BtnAzul.Name = "BtnAzul";
             this.BtnAzul.Size = new System.Drawing.Size(234, 43);
             this.BtnAzul.TabIndex = 0;
-            this.BtnAzul.Text = "Formulario Azul";
+            this.BtnAzul.Text = "Nuevo Form. Azul";
             this.BtnAzul.UseVisualStyleBackColor = true;
             this.BtnAzul.Click += new System.EventHandler(this.BtnAzul_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(544, 10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 45);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Cerrar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // FrmRojo
             // 
@@ -49,6 +61,7 @@ namespace Ejemplo_Variables
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(651, 357);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnAzul);
             this.Name = "FrmRojo";
             this.Text = "Rojo";
@@ -59,5 +72,6 @@ namespace Ejemplo_Variables
         #endregion
 
         private System.Windows.Forms.Button BtnAzul;
+        private System.Windows.Forms.Button button1;
     }
 }
