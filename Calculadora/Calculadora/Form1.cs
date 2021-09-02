@@ -16,5 +16,20 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            int numero1;
+            int numero2;
+            int resultado;
+
+            numero1 = System.Convert.ToInt32(textBox1.Text);
+            numero2 = System.Convert.ToInt32(textBox2.Text);
+
+            resultado = numero1 + numero2;
+
+            LblRes.Text = System.Convert.ToString(resultado);
+
+        }
     }
 }
