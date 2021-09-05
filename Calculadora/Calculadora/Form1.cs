@@ -21,10 +21,11 @@ namespace Calculadora
         {
             int numero1;
             int numero2;
+
             int resultado;
 
-            numero1 = System.Convert.ToInt32(textBox1.Text);
-            numero2 = System.Convert.ToInt32(textBox2.Text);
+            numero1 = System.Convert.ToInt32(textBox1.Text); 
+            numero2 =System.Convert.ToInt32(textBox2.Text);
 
             resultado = numero1 + numero2;
 
