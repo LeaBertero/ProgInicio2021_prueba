@@ -80,7 +80,7 @@ namespace MovimientoDeRectangulos
             this.LblNegro.Size = new System.Drawing.Size(49, 161);
             this.LblNegro.TabIndex = 3;
             this.LblNegro.ForeColorChanged += new System.EventHandler(this.BtnNegro_Click);
-            this.LblNegro.Click += new System.EventHandler(this.LblNegro_Click);
+            
             // 
             // BtnSalir
             // 

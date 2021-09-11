@@ -57,20 +57,12 @@ namespace MovimientoDeRectangulos
             Close();
         }
 
-        private void FrmDesplazamiento_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblNegro_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void BtnTxt_Click(object sender, EventArgs e)
         {
             this.LblText.Text = "Se ha formado una T";
         }
+
     }
     
 }
