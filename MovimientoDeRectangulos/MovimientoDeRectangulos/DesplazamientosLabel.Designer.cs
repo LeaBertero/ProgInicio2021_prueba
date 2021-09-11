@@ -132,7 +132,6 @@ namespace MovimientoDeRectangulos
             this.Controls.Add(this.LblText);
             this.Name = "FrmDesplazamiento";
             this.Text = "Movimiento de 2 Label";
-            this.Load += new System.EventHandler(this.FrmDesplazamiento_Load);
             this.ResumeLayout(false);
 
         }
