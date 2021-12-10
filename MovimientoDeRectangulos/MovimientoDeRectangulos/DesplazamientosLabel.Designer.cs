@@ -42,7 +42,7 @@ namespace MovimientoDeRectangulos
             // 
             this.BtnBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBlanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBlanco.Location = new System.Drawing.Point(12, 63);
+            this.BtnBlanco.Location = new System.Drawing.Point(12, 12);
             this.BtnBlanco.Name = "BtnBlanco";
             this.BtnBlanco.Size = new System.Drawing.Size(179, 45);
             this.BtnBlanco.TabIndex = 0;
@@ -56,7 +56,7 @@ namespace MovimientoDeRectangulos
             this.BtnNegro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnNegro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNegro.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnNegro.Location = new System.Drawing.Point(12, 12);
+            this.BtnNegro.Location = new System.Drawing.Point(12, 63);
             this.BtnNegro.Name = "BtnNegro";
             this.BtnNegro.Size = new System.Drawing.Size(179, 45);
             this.BtnNegro.TabIndex = 1;
@@ -80,7 +80,6 @@ namespace MovimientoDeRectangulos
             this.LblNegro.Size = new System.Drawing.Size(49, 161);
             this.LblNegro.TabIndex = 3;
             this.LblNegro.ForeColorChanged += new System.EventHandler(this.BtnNegro_Click);
-            
             // 
             // BtnSalir
             // 
