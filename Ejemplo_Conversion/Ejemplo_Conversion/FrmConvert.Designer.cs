@@ -174,7 +174,7 @@ namespace Ejemplo_Conversion
             this.Controls.Add(this.LblRes);
             this.Name = "FrmConvert";
             this.Text = "Ejemplo_Conversion";
-            this.Load += new System.EventHandler(this.FrmConvert_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
