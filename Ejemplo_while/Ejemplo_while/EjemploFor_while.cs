@@ -23,8 +23,8 @@ namespace Ejemplo_while
             AnchoFormulario = this.Width;
             int AnchoLabel = LblMov.Width;
             int AnchoBorde = 15;
-            int X = 0;
-            int paso = 1;
+            int contador = 0;
+            int pasos = 1;
 
 
             //for (int X = 0; X < AnchoFormulario - AnchoLabel - AnchoBorde; X++)
@@ -33,11 +33,11 @@ namespace Ejemplo_while
 
             //}
 
-            while (X < AnchoFormulario - AnchoLabel - AnchoBorde)
+            while (contador < AnchoFormulario - AnchoLabel - AnchoBorde)
             {
-                LblMov.Left = X;
+                LblMov.Left = contador;
                 this.Refresh();
-                X = X + paso; 
+                contador = contador + pasos; 
             }
         }
 
