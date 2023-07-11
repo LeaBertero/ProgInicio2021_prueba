@@ -12,12 +12,13 @@ namespace PruebaIff
 {
     public partial class FrmArranque : Form
     {
+        //constructor
         public FrmArranque()
         {
             InitializeComponent();
         }
 
-        private void BtnAceptar_Click(object sender, EventArgs e)
+        public void BtnAceptar_Click(object sender, EventArgs e)
         {
             var formularioprimero = new FrmSiguiente();
             formularioprimero.ShowDialog();
